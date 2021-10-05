@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_icon12"
+            android:title="Home" />
+        <item
+            android:id="@+id/Signin"
+            android:icon="@drawable/ic_icon12"
+            android:title="Sign In" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_icon12"
+            android:title="Sign Out" />
+    </group>
+
+    <group
+        android:checkableBehavior="single">
+
+        <item android:title="Women Safety Related Option">
+
+            <menu>
+                <item
+                    android:id="@+id/self_defence_technique"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Self Defence Technique" />
+                <item
+                    android:id="@+id/menstruation_menopause"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Menstruation and Menopause" />
+                <item
+                    android:id="@+id/body_safety"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Body Safety" />
+                <item
+                    android:id="@+id/help_line_number"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Help Line Number" />
+                <item
+                    android:id="@+id/contact_ngo"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Contact NGO" />
+                <item
+                    android:id="@+id/rights_laws_for_womens"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Rights and Laws For Women" />
+                <item
+                    android:id="@+id/educational_opportunities"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Educational Opportunities" />
+                <item
+                    android:id="@+id/tips_for_save"
+                    android:icon="@drawable/ic_icon12"
+                    android:title="Tips For Save" />
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+</menu>
